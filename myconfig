@@ -1,0 +1,1121 @@
+#
+# Automatically generated configuration: don't edit
+# use make menuconfig or make config to make changes
+#
+MENU_postlfs=y
+
+#
+# Post LFS Configuration and Extra Software
+#
+MENU_postlfs-config=y
+
+#
+# After LFS Configuration Issues
+#
+# CONFIG_lsb-release is not set
+MENU_postlfs-security=y
+
+#
+# Security
+#
+CONFIG_consolekit=y
+CONFIG_cracklib=y
+CONFIG_cryptsetup=y
+CONFIG_cyrus-sasl=y
+CONFIG_gnupg2=y
+CONFIG_gnutls=y
+CONFIG_gpgme=y
+CONFIG_haveged=y
+CONFIG_iptables=y
+CONFIG_libcap-pam=y
+CONFIG_liboauth=y
+CONFIG_libpwquality=y
+CONFIG_linux-pam=y
+CONFIG_make-ca=y
+CONFIG_mitkrb=y
+CONFIG_nettle=y
+CONFIG_nss=y
+CONFIG_openssh=y
+CONFIG_p11-kit=y
+CONFIG_polkit=y
+CONFIG_shadow=y
+CONFIG_ssh-askpass=y
+CONFIG_stunnel=y
+CONFIG_sudo=y
+CONFIG_tripwire=y
+CONFIG_volume_key=y
+MENU_postlfs-filesystems=y
+
+#
+# File Systems and Disk Management
+#
+# CONFIG_btrfs-progs is not set
+CONFIG_dosfstools=y
+# CONFIG_fuse2 is not set
+CONFIG_fuse3=y
+CONFIG_gptfdisk=y
+# CONFIG_jfsutils is not set
+# CONFIG_lvm2 is not set
+# CONFIG_mdadm is not set
+CONFIG_ntfs-3g=y
+CONFIG_parted=y
+CONFIG_reiserfs=y
+# CONFIG_smartmontools is not set
+CONFIG_sshfs=y
+CONFIG_xfsprogs=y
+MENU_postlfs-editors=y
+
+#
+# Editors
+#
+# CONFIG_bluefish is not set
+# CONFIG_ed is not set
+# CONFIG_emacs is not set
+# CONFIG_gedit is not set
+# CONFIG_joe is not set
+# CONFIG_kate5 is not set
+CONFIG_mousepad=y
+CONFIG_nano=y
+# CONFIG_vim is not set
+# MENU_postlfs-shells is not set
+# CONFIG_dash is not set
+# CONFIG_tcsh is not set
+# CONFIG_zsh is not set
+# MENU_postlfs-virtualization is not set
+# CONFIG_qemu is not set
+MENU_general=y
+
+#
+# General Libraries and Utilities
+#
+MENU_general-genlib=y
+
+#
+# General Libraries
+#
+CONFIG_apr=y
+CONFIG_apr-util=y
+CONFIG_aspell=y
+CONFIG_boost=y
+CONFIG_clucene=y
+CONFIG_dbus-glib=y
+CONFIG_enchant=y
+CONFIG_exempi=y
+CONFIG_fftw=y
+CONFIG_glib2=y
+CONFIG_glibmm=y
+CONFIG_gmime=y
+CONFIG_gmime3=y
+CONFIG_gobject-introspection=y
+CONFIG_grantlee=y
+CONFIG_gsl=y
+CONFIG_icu=y
+CONFIG_jansson=y
+CONFIG_js52=y
+CONFIG_js60=y
+CONFIG_json-c=y
+CONFIG_json-glib=y
+CONFIG_keyutils=y
+CONFIG_libaio=y
+CONFIG_libarchive=y
+CONFIG_libassuan=y
+CONFIG_libatasmart=y
+CONFIG_libatomic_ops=y
+CONFIG_libblockdev=y
+CONFIG_libbytesize=y
+CONFIG_libcroco=y
+CONFIG_libdaemon=y
+CONFIG_libesmtp=y
+CONFIG_libgcrypt=y
+CONFIG_libgpg-error=y
+CONFIG_libgsf=y
+CONFIG_libgudev=y
+CONFIG_libgusb=y
+CONFIG_libical=y
+CONFIG_libidn=y
+CONFIG_libidn2=y
+CONFIG_libiodbc=y
+CONFIG_libksba=y
+CONFIG_liblinear=y
+CONFIG_libmbim=y
+CONFIG_libpaper=y
+CONFIG_libqmi=y
+CONFIG_libseccomp=y
+CONFIG_libsigc=y
+CONFIG_libsigsegv=y
+CONFIG_libssh2=y
+CONFIG_libstatgrab=y
+CONFIG_libtasn1=y
+CONFIG_libunique=y
+CONFIG_libunistring=y
+CONFIG_libusb=y
+CONFIG_libuv=y
+CONFIG_libxkbcommon=y
+CONFIG_libxml2=y
+CONFIG_libxslt=y
+CONFIG_lzo=y
+CONFIG_mtdev=y
+CONFIG_nodejs=y
+CONFIG_npth=y
+CONFIG_nspr=y
+CONFIG_pcre=y
+CONFIG_pcre2=y
+CONFIG_popt=y
+CONFIG_pth=y
+CONFIG_ptlib=y
+CONFIG_qca=y
+CONFIG_talloc=y
+CONFIG_wayland=y
+CONFIG_wayland-protocols=y
+CONFIG_wv=y
+CONFIG_xapian=y
+CONFIG_yaml=y
+MENU_general-graphlib=y
+
+#
+# Graphics and Font Libraries
+#
+CONFIG_aalib=y
+CONFIG_babl=y
+CONFIG_exiv2=y
+CONFIG_fontconfig=y
+CONFIG_freetype2=y
+CONFIG_fribidi=y
+CONFIG_gegl=y
+CONFIG_giflib=y
+# CONFIG_graphite2 is not set
+CONFIG_harfbuzz=y
+CONFIG_ijs=y
+# CONFIG_jasper is not set
+CONFIG_lcms=y
+CONFIG_lcms2=y
+CONFIG_libexif=y
+CONFIG_libjpeg=y
+CONFIG_libmng=y
+# CONFIG_libmypaint is not set
+CONFIG_libpng=y
+CONFIG_libraw=y
+CONFIG_librsvg=y
+CONFIG_libtiff=y
+CONFIG_libwebp=y
+# CONFIG_mypaint-brushes is not set
+# CONFIG_newt is not set
+# CONFIG_opencv is not set
+CONFIG_openjpeg2=y
+# CONFIG_pixman is not set
+# CONFIG_poppler is not set
+# CONFIG_potrace is not set
+# CONFIG_qpdf is not set
+MENU_general-genutils=y
+
+#
+# General Utilities
+#
+# CONFIG_asciidoc is not set
+# CONFIG_compface is not set
+CONFIG_desktop-file-utils=y
+# CONFIG_graphviz is not set
+# CONFIG_gtk-doc is not set
+# CONFIG_hd2u is not set
+# CONFIG_highlight is not set
+CONFIG_ibus=y
+# CONFIG_imagemagick is not set
+# CONFIG_imagemagick6 is not set
+# CONFIG_iso-codes is not set
+# CONFIG_lsof is not set
+# CONFIG_pinentry is not set
+# CONFIG_rarian is not set
+# CONFIG_rep-gtk is not set
+# CONFIG_screen is not set
+CONFIG_shared-mime-info=y
+CONFIG_sharutils=y
+# CONFIG_tidy-html5 is not set
+CONFIG_time=y
+CONFIG_tree=y
+# CONFIG_unixodbc is not set
+# CONFIG_xdg-user-dirs is not set
+MENU_general-sysutils=y
+
+#
+# System Utilities
+#
+CONFIG_ModemManager=y
+CONFIG_acpid=y
+CONFIG_at=y
+CONFIG_autofs=y
+CONFIG_bluez=y
+CONFIG_bubblewrap=y
+CONFIG_colord=y
+CONFIG_cpio=y
+CONFIG_dbus=y
+CONFIG_fcron=y
+CONFIG_gpm=y
+CONFIG_hdparm=y
+CONFIG_initd-tools=y
+CONFIG_lm_sensors=y
+CONFIG_logrotate=y
+CONFIG_mc=y
+CONFIG_p7zip=y
+CONFIG_pax=y
+CONFIG_pciutils=y
+CONFIG_pm-utils=y
+CONFIG_raptor=y
+CONFIG_rasqal=y
+CONFIG_redland=y
+CONFIG_sg3_utils=y
+CONFIG_sysstat=y
+CONFIG_udisks2=y
+CONFIG_unrar=y
+CONFIG_unzip=y
+CONFIG_upower=y
+CONFIG_usbutils=y
+CONFIG_which=y
+CONFIG_zip=y
+MENU_general-prog=y
+
+#
+# Programming
+#
+# CONFIG_apache-ant is not set
+CONFIG_autoconf213=y
+# CONFIG_cbindgen is not set
+# CONFIG_clisp is not set
+# CONFIG_cmake is not set
+# CONFIG_dejagnu is not set
+# CONFIG_doxygen is not set
+# CONFIG_expect is not set
+# CONFIG_gc is not set
+# CONFIG_gcc is not set
+# CONFIG_gcc-ada is not set
+# CONFIG_gdb is not set
+# CONFIG_git is not set
+# CONFIG_guile is not set
+# CONFIG_java is not set
+# CONFIG_librep is not set
+# CONFIG_llvm is not set
+# CONFIG_lua is not set
+# CONFIG_mercurial is not set
+# CONFIG_nasm is not set
+# CONFIG_ninja is not set
+# CONFIG_npapi-sdk is not set
+# CONFIG_ojdk-conf is not set
+# CONFIG_openjdk is not set
+# MENU_Perl_Module_Dependencies is not set
+# CONFIG_perl-algorithm-diff is not set
+# CONFIG_perl-b-hooks-endofscope is not set
+# CONFIG_perl-business-isbn-data is not set
+# CONFIG_perl-capture-tiny is not set
+# CONFIG_perl-class-data-inheritable is not set
+# CONFIG_perl-class-factory-util is not set
+# CONFIG_perl-class-inspector is not set
+# CONFIG_perl-class-singleton is not set
+# CONFIG_perl-class-tiny is not set
+# CONFIG_perl-config-autoconf is not set
+# CONFIG_perl-cpan-meta-check is not set
+# CONFIG_perl-datetime is not set
+# CONFIG_perl-datetime-format-strptime is not set
+# CONFIG_perl-datetime-locale is not set
+# CONFIG_perl-datetime-timezone is not set
+# CONFIG_perl-devel-stacktrace is not set
+# CONFIG_perl-dist-checkconflicts is not set
+# CONFIG_perl-encode-locale is not set
+# CONFIG_perl-eval-closure is not set
+# CONFIG_perl-exception-class is not set
+# CONFIG_perl-exporter-tiny is not set
+# CONFIG_perl-extutils-libbuilder is not set
+# CONFIG_perl-file-copy-recursive is not set
+# CONFIG_perl-file-find-rule is not set
+# CONFIG_perl-file-listing is not set
+# CONFIG_perl-file-sharedir is not set
+# CONFIG_perl-file-sharedir-install is not set
+# CONFIG_perl-html-tagset is not set
+# CONFIG_perl-http-cookies is not set
+# CONFIG_perl-http-date is not set
+# CONFIG_perl-http-message is not set
+# CONFIG_perl-http-negotiate is not set
+# CONFIG_perl-importer is not set
+# CONFIG_perl-io-html is not set
+# CONFIG_perl-ipc-system-simple is not set
+# CONFIG_perl-libwww-perl is not set
+# CONFIG_perl-list-moreutils-xs is not set
+# CONFIG_perl-list-someutils is not set
+# CONFIG_perl-list-someutils-xs is not set
+# CONFIG_perl-list-utilsby is not set
+# CONFIG_perl-lwp-mediatypes is not set
+# CONFIG_perl-mime-charset is not set
+# CONFIG_perl-module-implementation is not set
+# CONFIG_perl-module-pluggable is not set
+# CONFIG_perl-module-runtime is not set
+# CONFIG_perl-mro-compat is not set
+# CONFIG_perl-namespace-autoclean is not set
+# CONFIG_perl-namespace-clean is not set
+# CONFIG_perl-net-http is not set
+# CONFIG_perl-net-ssleay is not set
+# CONFIG_perl-number-compare is not set
+# CONFIG_perl-package-deprecationmanager is not set
+# CONFIG_perl-package-stash is not set
+# CONFIG_perl-params-util is not set
+# CONFIG_perl-params-validate is not set
+# CONFIG_perl-params-validationcompiler is not set
+# CONFIG_perl-path-tiny is not set
+# CONFIG_perl-role-tiny is not set
+# CONFIG_perl-scope-guard is not set
+# CONFIG_perl-specio is not set
+# CONFIG_perl-sub-exporter-progressive is not set
+# CONFIG_perl-sub-identify is not set
+# CONFIG_perl-sub-info is not set
+# CONFIG_perl-sub-install is not set
+# CONFIG_perl-sub-name is not set
+# CONFIG_perl-sub-quote is not set
+# CONFIG_perl-sub-uplevel is not set
+# CONFIG_perl-super is not set
+# CONFIG_perl-term-table is not set
+# CONFIG_perl-test-deep is not set
+# CONFIG_perl-test-exception is not set
+# CONFIG_perl-test-fatal is not set
+# CONFIG_perl-test-file is not set
+# CONFIG_perl-test-file-sharedir is not set
+# CONFIG_perl-test-leaktrace is not set
+# CONFIG_perl-test-needs is not set
+# CONFIG_perl-test-requires is not set
+# CONFIG_perl-test-requiresinternet is not set
+# CONFIG_perl-test-simple is not set
+# CONFIG_perl-test-utf8 is not set
+# CONFIG_perl-test-warnings is not set
+# CONFIG_perl-test-without-module is not set
+# CONFIG_perl-test2-plugin-nowarnings is not set
+# CONFIG_perl-test2-suite is not set
+# CONFIG_perl-text-csv_xs is not set
+# CONFIG_perl-text-diff is not set
+# CONFIG_perl-text-glob is not set
+# CONFIG_perl-tie-cycle is not set
+# CONFIG_perl-try-tiny is not set
+# CONFIG_perl-variable-magic is not set
+# CONFIG_perl-www-robotrules is not set
+# CONFIG_perl-xml-libxml is not set
+# CONFIG_perl-xml-namespacesupport is not set
+# CONFIG_perl-xml-sax is not set
+# CONFIG_perl-xml-sax-base is not set
+# CONFIG_perl-xml-sax-expat is not set
+# MENU_Perl_Modules is not set
+# CONFIG_perl-archive-zip is not set
+# CONFIG_perl-autovivification is not set
+# CONFIG_perl-business-isbn is not set
+# CONFIG_perl-business-ismn is not set
+# CONFIG_perl-business-issn is not set
+# CONFIG_perl-class-accessor is not set
+# CONFIG_perl-data-compare is not set
+# CONFIG_perl-data-dump is not set
+# CONFIG_perl-data-uniqid is not set
+# CONFIG_perl-datetime-calendar-julian is not set
+# CONFIG_perl-datetime-format-builder is not set
+# CONFIG_perl-encode-eucjpascii is not set
+# CONFIG_perl-encode-hanextra is not set
+# CONFIG_perl-encode-jis2k is not set
+# CONFIG_perl-file-slurper is not set
+# CONFIG_perl-file-which is not set
+# CONFIG_perl-html-parser is not set
+# CONFIG_perl-http-daemon is not set
+# CONFIG_perl-io-socket-ssl is not set
+# CONFIG_perl-ipc-run3 is not set
+# CONFIG_perl-lingua-translit is not set
+# CONFIG_perl-list-allutils is not set
+# CONFIG_perl-list-moreutils is not set
+# CONFIG_perl-log-log4perl is not set
+# CONFIG_perl-lwp-protocol-https is not set
+# CONFIG_perl-module-build is not set
+# CONFIG_perl-net-dns is not set
+# CONFIG_perl-parse-yapp is not set
+# CONFIG_perl-perlio-utf8_strict is not set
+# CONFIG_perl-regexp-common is not set
+# CONFIG_perl-sgmlspm is not set
+# CONFIG_perl-sort-key is not set
+# CONFIG_perl-test-command is not set
+# CONFIG_perl-test-differences is not set
+# CONFIG_perl-text-bibtex is not set
+# CONFIG_perl-text-csv is not set
+# CONFIG_perl-text-roman is not set
+# CONFIG_perl-unicode-collate is not set
+# CONFIG_perl-unicode-linebreak is not set
+# CONFIG_perl-uri is not set
+# CONFIG_perl-xml-libxml-simple is not set
+# CONFIG_perl-xml-libxslt is not set
+# CONFIG_perl-xml-simple is not set
+# CONFIG_perl-xml-writer is not set
+# CONFIG_php is not set
+# MENU_Python_Modules is not set
+# CONFIG_Mako is not set
+# CONFIG_MarkupSafe is not set
+# CONFIG_dbus-python is not set
+# CONFIG_docutils is not set
+# CONFIG_libxml2py2 is not set
+# CONFIG_lxml is not set
+# CONFIG_pyatspi2 is not set
+# CONFIG_pycairo is not set
+# CONFIG_pycrypto is not set
+# CONFIG_pygobject2 is not set
+# CONFIG_pygobject3 is not set
+# CONFIG_pygtk is not set
+# CONFIG_pyxdg is not set
+# CONFIG_scour is not set
+# CONFIG_six is not set
+# CONFIG_python2 is not set
+# CONFIG_python3 is not set
+# CONFIG_ruby is not set
+# CONFIG_rust is not set
+# CONFIG_scons is not set
+# CONFIG_slang is not set
+# CONFIG_subversion is not set
+# CONFIG_swig is not set
+# CONFIG_tcl is not set
+# CONFIG_tk is not set
+# CONFIG_vala is not set
+# CONFIG_valgrind is not set
+# CONFIG_yasm is not set
+MENU_basicnet=y
+
+#
+# Networking
+#
+MENU_basicnet-connect=y
+
+#
+# Connecting to a Network
+#
+CONFIG_dhcp=y
+CONFIG_dhcpcd=y
+MENU_netprogs=y
+
+#
+# Networking Programs
+#
+CONFIG_bridgeutils=y
+CONFIG_cifsutils=y
+CONFIG_iw=y
+CONFIG_ncftp=y
+CONFIG_net-tools=y
+CONFIG_nfs-utils=y
+CONFIG_ntp=y
+CONFIG_rpcbind=y
+CONFIG_rsync=y
+CONFIG_samba=y
+CONFIG_wget=y
+CONFIG_wireless_tools=y
+CONFIG_wpa_supplicant=y
+MENU_netutils=y
+
+#
+# Networking Utilities
+#
+CONFIG_NetworkManager=y
+CONFIG_avahi=y
+CONFIG_bind-utils=y
+# CONFIG_nmap is not set
+CONFIG_traceroute=y
+CONFIG_whois=y
+CONFIG_wicd=y
+# CONFIG_wireshark is not set
+MENU_basicnet-netlibs=y
+
+#
+# Networking Libraries
+#
+CONFIG_c-ares=y
+CONFIG_curl=y
+CONFIG_geoclue2=y
+CONFIG_glib-networking=y
+CONFIG_ldns=y
+CONFIG_libevent=y
+CONFIG_libndp=y
+CONFIG_libnl=y
+CONFIG_libnsl=y
+CONFIG_libpcap=y
+CONFIG_libpsl=y
+CONFIG_libsoup=y
+CONFIG_libtirpc=y
+CONFIG_neon=y
+CONFIG_nghttp2=y
+CONFIG_rpcsvc-proto=y
+CONFIG_serf=y
+MENU_basicnet-textweb=y
+
+#
+# Text Web Browsers
+#
+# CONFIG_Links is not set
+# CONFIG_lynx is not set
+# CONFIG_w3m is not set
+MENU_basicnet-mailnews=y
+
+#
+# Mail/News Clients
+#
+CONFIG_alpine=y
+# CONFIG_fetchmail is not set
+# CONFIG_mailx is not set
+# CONFIG_mutt is not set
+# CONFIG_procmail is not set
+MENU_server=y
+
+#
+# Servers
+#
+MENU_server-major=y
+
+#
+# Major Servers
+#
+# CONFIG_apache is not set
+# CONFIG_bind is not set
+# CONFIG_proftpd is not set
+CONFIG_vsftpd=y
+# MENU_server-mail is not set
+# CONFIG_dovecot is not set
+# CONFIG_exim is not set
+# CONFIG_postfix is not set
+# CONFIG_sendmail is not set
+# MENU_server-databases is not set
+# CONFIG_db is not set
+# CONFIG_lmdb is not set
+# CONFIG_mariadb is not set
+# CONFIG_postgresql is not set
+# CONFIG_sqlite is not set
+MENU_server-other=y
+
+#
+# Other Server Software
+#
+CONFIG_openldap=y
+# CONFIG_unbound is not set
+MENU_x=y
+
+#
+# X + Window and Display Managers
+#
+MENU_x-window-system=y
+
+#
+# X Window System Environment
+#
+CONFIG_libXau=y
+CONFIG_libXdmcp=y
+CONFIG_libxcb=y
+CONFIG_mesa=y
+CONFIG_twm=y
+CONFIG_util-macros=y
+CONFIG_xbitmaps=y
+CONFIG_xcb-proto=y
+CONFIG_xcb-util=y
+CONFIG_xcb-util-cursor=y
+CONFIG_xcb-util-image=y
+CONFIG_xcb-util-keysyms=y
+CONFIG_xcb-util-renderutil=y
+CONFIG_xcb-util-wm=y
+CONFIG_xclock=y
+CONFIG_xcursor-themes=y
+CONFIG_xinit=y
+CONFIG_xkeyboard-config=y
+CONFIG_xorg-server=y
+CONFIG_xorg-env=y
+MENU_xorg7-app=y
+
+#
+# xorg7-app
+#
+CONFIG_iceauth=y
+CONFIG_luit=y
+CONFIG_mkfontdir=y
+CONFIG_mkfontscale=y
+CONFIG_sessreg=y
+CONFIG_setxkbmap=y
+CONFIG_smproxy=y
+CONFIG_x11perf=y
+CONFIG_xauth=y
+CONFIG_xbacklight=y
+CONFIG_xcmsdb=y
+CONFIG_xcursorgen=y
+CONFIG_xdpyinfo=y
+CONFIG_xdriinfo=y
+CONFIG_xev=y
+CONFIG_xgamma=y
+CONFIG_xhost=y
+CONFIG_xinput=y
+CONFIG_xkbcomp=y
+CONFIG_xkbevd=y
+CONFIG_xkbutils=y
+CONFIG_xkill=y
+CONFIG_xlsatoms=y
+CONFIG_xlsclients=y
+CONFIG_xmessage=y
+CONFIG_xmodmap=y
+CONFIG_xpr=y
+CONFIG_xprop=y
+CONFIG_xrandr=y
+CONFIG_xrdb=y
+CONFIG_xrefresh=y
+CONFIG_xset=y
+CONFIG_xsetroot=y
+CONFIG_xvinfo=y
+CONFIG_xwd=y
+CONFIG_xwininfo=y
+CONFIG_xwud=y
+MENU_Xorg_Drivers=y
+
+#
+# Xorg Drivers
+#
+CONFIG_libevdev=y
+CONFIG_libinput=y
+CONFIG_libva=y
+CONFIG_libvdpau=y
+CONFIG_libvdpau-va-gl=y
+# CONFIG_xorg-amdgpu-driver is not set
+# CONFIG_xorg-ati-driver is not set
+CONFIG_xorg-evdev-driver=y
+CONFIG_xorg-fbdev-driver=y
+CONFIG_xorg-intel-driver=y
+CONFIG_xorg-libinput-driver=y
+# CONFIG_xorg-nouveau-driver is not set
+CONFIG_xorg-synaptics-driver=y
+CONFIG_xorg-vmmouse-driver=y
+CONFIG_xorg-vmware-driver=y
+# CONFIG_xorg-wacom-driver is not set
+MENU_xorg7-font=y
+
+#
+# xorg7-font
+#
+CONFIG_encodings=y
+CONFIG_font-adobe-utopia-type1=y
+CONFIG_font-alias=y
+CONFIG_font-bh-ttf=y
+CONFIG_font-bh-type1=y
+CONFIG_font-ibm-type1=y
+CONFIG_font-misc-ethiopic=y
+CONFIG_font-util=y
+CONFIG_font-xfree86-type1=y
+MENU_xorg7-legacy=y
+
+#
+# xorg7-legacy
+#
+CONFIG_bdftopcf=y
+CONFIG_font-adobe-100dpi=y
+CONFIG_font-adobe-75dpi=y
+CONFIG_font-jis-misc=y
+CONFIG_font-daewoo-misc=y
+CONFIG_font-isas-misc=y
+MENU_xorg7-lib=y
+
+#
+# xorg7-lib
+#
+CONFIG_xtrans=y
+CONFIG_libX11=y
+CONFIG_libXext=y
+CONFIG_libFS=y
+CONFIG_libICE=y
+CONFIG_libSM=y
+CONFIG_libXScrnSaver=y
+CONFIG_libXt=y
+CONFIG_libXmu=y
+CONFIG_libXpm=y
+CONFIG_libXaw=y
+CONFIG_libXfixes=y
+CONFIG_libXcomposite=y
+CONFIG_libXrender=y
+CONFIG_libXcursor=y
+CONFIG_libXdamage=y
+CONFIG_libfontenc=y
+CONFIG_libXfont2=y
+CONFIG_libXft=y
+CONFIG_libXi=y
+CONFIG_libXinerama=y
+CONFIG_libXrandr=y
+CONFIG_libXres=y
+CONFIG_libXtst=y
+CONFIG_libXv=y
+CONFIG_libXvMC=y
+CONFIG_libXxf86dga=y
+CONFIG_libXxf86vm=y
+CONFIG_libdmx=y
+CONFIG_libpciaccess=y
+CONFIG_libxkbfile=y
+CONFIG_libxshmfence=y
+CONFIG_xorgproto=y
+CONFIG_xterm2=y
+MENU_x-lib=y
+
+#
+# X Libraries
+#
+CONFIG_at-spi2-atk=y
+CONFIG_at-spi2-core=y
+CONFIG_atk=y
+CONFIG_atkmm=y
+CONFIG_cairo=y
+CONFIG_cairomm=y
+CONFIG_clutter=y
+CONFIG_clutter-gst=y
+CONFIG_clutter-gtk=y
+CONFIG_cogl=y
+CONFIG_colord-gtk=y
+CONFIG_fltk=y
+CONFIG_freeglut=y
+CONFIG_gdk-pixbuf=y
+CONFIG_glu=y
+CONFIG_goffice010=y
+CONFIG_gtk-engines=y
+CONFIG_gtk2=y
+CONFIG_gtk3=y
+CONFIG_gtkmm2=y
+CONFIG_gtkmm3=y
+CONFIG_gtksourceview=y
+CONFIG_imlib2=y
+CONFIG_keybinder2=y
+CONFIG_libdazzle=y
+CONFIG_libdrm=y
+CONFIG_libepoxy=y
+CONFIG_libglade=y
+CONFIG_libnotify=y
+CONFIG_libxklavier=y
+CONFIG_pango=y
+CONFIG_pangomm=y
+CONFIG_qt5=y
+CONFIG_qtwebengine=y
+CONFIG_startup-notification=y
+CONFIG_webkitgtk=y
+MENU_x-dm=y
+
+#
+# Display Managers
+#
+# CONFIG_lightdm is not set
+CONFIG_lxdm=y
+MENU_x-wm=y
+
+#
+# Window Managers
+#
+# CONFIG_fluxbox is not set
+# CONFIG_icewm is not set
+CONFIG_openbox=y
+# CONFIG_sawfish is not set
+MENU_x-icons=y
+
+#
+# Icons
+#
+CONFIG_adwaita-icon-theme=y
+CONFIG_breeze-icons=y
+# CONFIG_gnome-icon-theme is not set
+# CONFIG_gnome-icon-theme-extras is not set
+# CONFIG_gnome-icon-theme-symbolic is not set
+# CONFIG_gnome-themes-extra is not set
+# CONFIG_hicolor-icon-theme is not set
+# CONFIG_icon-naming-utils is not set
+# CONFIG_lxde-icon-theme is not set
+# CONFIG_oxygen-icons5 is not set
+# MENU_kde is not set
+# MENU_kde-prereq is not set
+# CONFIG_extra-cmake-modules is not set
+# CONFIG_libdbusmenu-qt is not set
+# CONFIG_phonon is not set
+# CONFIG_phonon-backend-gstreamer is not set
+# CONFIG_phonon-backend-vlc is not set
+# CONFIG_polkit-qt is not set
+# MENU_kf5 is not set
+# CONFIG_kf5-frameworks is not set
+# CONFIG_kf5-intro is not set
+# MENU_kf5-apps is not set
+# CONFIG_ark5 is not set
+# CONFIG_gwenview5 is not set
+# CONFIG_k3b is not set
+# CONFIG_kdenlive5 is not set
+# CONFIG_khelpcenter is not set
+# CONFIG_kmix5 is not set
+# CONFIG_konsole5 is not set
+# CONFIG_libkcddb is not set
+# CONFIG_libkdcraw is not set
+# CONFIG_libkexiv2 is not set
+# CONFIG_okular5 is not set
+# MENU_plasma5 is not set
+# CONFIG_plasma5-build is not set
+# MENU_gnome is not set
+# MENU_gnome-core is not set
+# CONFIG_GConf is not set
+# CONFIG_dconf is not set
+# CONFIG_gcr is not set
+# CONFIG_gexiv2 is not set
+# CONFIG_gjs is not set
+# CONFIG_gnome-autoar is not set
+# CONFIG_gnome-desktop is not set
+# CONFIG_gnome-keyring is not set
+# CONFIG_gnome-video-effects is not set
+# CONFIG_gsettings-desktop-schemas is not set
+# CONFIG_gvfs is not set
+# CONFIG_libgtop is not set
+# CONFIG_libpeas is not set
+# CONFIG_libsecret is not set
+# CONFIG_libwnck is not set
+# CONFIG_nautilus is not set
+# CONFIG_notification-daemon is not set
+# CONFIG_polkit-gnome is not set
+# CONFIG_totem-pl-parser is not set
+# CONFIG_tracker is not set
+# CONFIG_vte is not set
+# CONFIG_yelp is not set
+# CONFIG_yelp-xsl is not set
+# MENU_gnome-applications is not set
+# CONFIG_baobab is not set
+# CONFIG_brasero is not set
+# CONFIG_cheese is not set
+# CONFIG_eog is not set
+# CONFIG_evince is not set
+# CONFIG_file-roller is not set
+# CONFIG_gnome-calculator is not set
+# CONFIG_gnome-nettool is not set
+# CONFIG_gnome-screenshot is not set
+# CONFIG_gnome-system-monitor is not set
+# CONFIG_gnome-terminal is not set
+# CONFIG_gucharmap is not set
+# CONFIG_network-manager-applet is not set
+# CONFIG_seahorse is not set
+# MENU_xfce is not set
+# MENU_xfce-core is not set
+# CONFIG_exo is not set
+# CONFIG_garcon is not set
+# CONFIG_gtk-xfce-engine is not set
+# CONFIG_libwnck2 is not set
+# CONFIG_libxfce4ui is not set
+# CONFIG_libxfce4util is not set
+# CONFIG_thunar is not set
+# CONFIG_thunar-volman is not set
+# CONFIG_tumbler is not set
+# CONFIG_xfce4-appfinder is not set
+# CONFIG_xfce4-panel is not set
+# CONFIG_xfce4-power-manager is not set
+# CONFIG_xfce4-session is not set
+# CONFIG_xfce4-settings is not set
+# CONFIG_xfce4-xkb-plugin is not set
+# CONFIG_xfconf is not set
+# CONFIG_xfdesktop is not set
+# CONFIG_xfwm4 is not set
+# MENU_xfce-apps is not set
+# CONFIG_parole is not set
+# CONFIG_ristretto is not set
+# CONFIG_xfburn is not set
+# CONFIG_xfce4-notifyd is not set
+# CONFIG_xfce4-terminal is not set
+# MENU_lxde is not set
+# MENU_lxde-desktop is not set
+# CONFIG_libfm is not set
+# CONFIG_libfm-extra is not set
+# CONFIG_lxappearance is not set
+# CONFIG_lxde-common is not set
+# CONFIG_lxmenu-data is not set
+# CONFIG_lxpanel is not set
+# CONFIG_lxsession is not set
+# CONFIG_menu-cache is not set
+# CONFIG_pcmanfm is not set
+# MENU_lxde-apps is not set
+# CONFIG_gpicview is not set
+# CONFIG_lxappearance-obconf is not set
+# CONFIG_lxinput is not set
+# CONFIG_lxrandr is not set
+# CONFIG_lxtask is not set
+# CONFIG_lxterminal is not set
+# CONFIG_vte2 is not set
+MENU_xsoft=y
+
+#
+# X Software
+#
+MENU_xsoft-office=y
+
+#
+# Office Programs
+#
+CONFIG_abiword=y
+CONFIG_gnumeric=y
+# CONFIG_libreoffice is not set
+MENU_xsoft-graphweb=y
+
+#
+# Graphical Web Browsers
+#
+# CONFIG_epiphany is not set
+# CONFIG_falkon is not set
+CONFIG_firefox=y
+# CONFIG_seamonkey is not set
+MENU_xsoft-other=y
+
+#
+# Other X-based Programs
+#
+# CONFIG_balsa is not set
+CONFIG_feh=y
+# CONFIG_fontforge is not set
+# CONFIG_gimp is not set
+CONFIG_gparted=y
+# CONFIG_hexchat is not set
+# CONFIG_inkscape is not set
+# CONFIG_pidgin is not set
+# CONFIG_rox-filer is not set
+# CONFIG_rxvt-unicode is not set
+# CONFIG_thunderbird is not set
+# CONFIG_tigervnc is not set
+# CONFIG_transmission is not set
+# CONFIG_xarchiver is not set
+# CONFIG_xdg-utils is not set
+# CONFIG_xscreensaver is not set
+MENU_multimedia=y
+
+#
+# Multimedia
+#
+MENU_multimedia-libdriv=y
+
+#
+# Multimedia Libraries and Drivers
+#
+CONFIG_alsa=y
+CONFIG_alsa-firmware=y
+CONFIG_alsa-lib=y
+CONFIG_alsa-oss=y
+CONFIG_alsa-plugins=y
+CONFIG_alsa-tools=y
+CONFIG_alsa-utils=y
+# CONFIG_audiofile is not set
+# CONFIG_faac is not set
+# CONFIG_faad2 is not set
+# CONFIG_fdk-aac is not set
+# CONFIG_flac is not set
+# CONFIG_frei0r is not set
+# CONFIG_gavl is not set
+# CONFIG_gst10-libav is not set
+# CONFIG_gst10-plugins-bad is not set
+# CONFIG_gst10-plugins-base is not set
+# CONFIG_gst10-plugins-good is not set
+# CONFIG_gst10-plugins-ugly is not set
+# CONFIG_gstreamer10 is not set
+# CONFIG_gstreamer10-vaapi is not set
+# CONFIG_id3lib is not set
+# CONFIG_liba52 is not set
+# CONFIG_libao is not set
+# CONFIG_libass is not set
+# CONFIG_libcanberra is not set
+# CONFIG_libcddb is not set
+# CONFIG_libcdio is not set
+# CONFIG_libdiscid is not set
+# CONFIG_libdv is not set
+# CONFIG_libdvdcss is not set
+# CONFIG_libdvdnav is not set
+# CONFIG_libdvdread is not set
+# CONFIG_libmad is not set
+# CONFIG_libmpeg2 is not set
+# CONFIG_libmusicbrainz is not set
+# CONFIG_libmusicbrainz5 is not set
+# CONFIG_libogg is not set
+# CONFIG_libquicktime is not set
+# CONFIG_libsamplerate is not set
+# CONFIG_libsndfile is not set
+# CONFIG_libtheora is not set
+# CONFIG_libvorbis is not set
+# CONFIG_libvpx is not set
+# CONFIG_mlt is not set
+# CONFIG_opus is not set
+# CONFIG_pulseaudio is not set
+# CONFIG_sbc is not set
+# CONFIG_sdl is not set
+# CONFIG_sdl2 is not set
+# CONFIG_soundtouch is not set
+# CONFIG_speex is not set
+# CONFIG_taglib is not set
+# CONFIG_v4l-utils is not set
+# CONFIG_x264 is not set
+# CONFIG_x265 is not set
+# CONFIG_xine-lib is not set
+# CONFIG_xvid is not set
+MENU_multimedia-audioutils=y
+
+#
+# Audio Utilities
+#
+# CONFIG_audacious is not set
+# CONFIG_cdparanoia is not set
+# CONFIG_kwave is not set
+# CONFIG_lame is not set
+# CONFIG_mpg123 is not set
+# CONFIG_pnmixer is not set
+# CONFIG_vorbistools is not set
+MENU_multimedia-videoutils=y
+
+#
+# Video Utilities
+#
+CONFIG_ffmpeg=y
+CONFIG_mplayer=y
+# CONFIG_transcode is not set
+# CONFIG_vlc is not set
+# CONFIG_xine-ui is not set
+# MENU_multimedia-cdwriteutils is not set
+# CONFIG_cdrdao is not set
+# CONFIG_cdrtools is not set
+# CONFIG_dvd-rw-tools is not set
+# CONFIG_libburn is not set
+# CONFIG_libisoburn is not set
+# CONFIG_libisofs is not set
+# MENU_pst is not set
+# MENU_pst-printing is not set
+# CONFIG_cups is not set
+# CONFIG_cups-filters is not set
+# CONFIG_gs is not set
+# CONFIG_gutenprint is not set
+# MENU_pst-scanning is not set
+# CONFIG_sane is not set
+# CONFIG_xsane is not set
+# MENU_pst-sgml is not set
+# CONFIG_docbook-dsssl is not set
+# CONFIG_docbook-utils is not set
+# CONFIG_openjade is not set
+# CONFIG_opensp is not set
+# CONFIG_sgml-common is not set
+# CONFIG_sgml-dtd is not set
+# CONFIG_sgml-dtd-3 is not set
+# MENU_pst-xml is not set
+# CONFIG_DocBook is not set
+# CONFIG_docbook-xsl is not set
+# CONFIG_itstool is not set
+# CONFIG_xmlto is not set
+# MENU_pst-ps is not set
+# CONFIG_a2ps is not set
+# CONFIG_enscript is not set
+# CONFIG_epdfview is not set
+# CONFIG_fop is not set
+# CONFIG_mupdf is not set
+# CONFIG_paps is not set
+# CONFIG_psutils is not set
+# MENU_pst-typesetting is not set
+# CONFIG_asymptote is not set
+# CONFIG_biber is not set
+# CONFIG_tex-path is not set
+# CONFIG_texlive is not set
+# CONFIG_xindy is not set
+
+#
+# 
+#
+
+#
+# Default package for resolving MTA dependency
+#
+MS_sendmail=y
+# MS_postfix is not set
+# MS_exim is not set
+MAIL_SERVER="sendmail"
+# DEPLVL_1 is not set
+DEPLVL_2=y
+# DEPLVL_3 is not set
+optDependency=2
+SUDO=y
